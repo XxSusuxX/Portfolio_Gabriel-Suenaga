@@ -7,10 +7,13 @@ import Link from 'next/link';
 import { BsArrowRight, BsLinkedin } from "react-icons/bs"
 import { HiDownload } from "react-icons/hi"
 import { FaGithub } from 'react-icons/fa';
+import { useSectioninView } from '@/lib/hooks';
 
 export default function Intro() {
+  const { ref } = useSectioninView('Home', 0.5)
+  
   return (
-    <section id="home" className="mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]">
+    <section ref={ref} id="home" className="mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]">
         <div className="flex items-center justify-center">
             <div className="relative">
                <motion.div
@@ -22,7 +25,7 @@ export default function Intro() {
                 }}
                >
                <Image 
-                src="https://media.licdn.com/dms/image/D4E03AQFptI8J46oYyQ/profile-displayphoto-shrink_800_800/0/1695045390520?e=1709164800&v=beta&t=se9zalx-8Kl52sa-s-SPMbGg4QMmTw5LFp3vW7RmQzI" 
+                src="https://instagram.ftow5-1.fna.fbcdn.net/v/t51.2885-19/413215634_342946235148318_633233973813447916_n.jpg?stp=dst-jpg_s150x150&_nc_ht=instagram.ftow5-1.fna.fbcdn.net&_nc_cat=106&_nc_ohc=UErhfkB6HRYAX_g8SVS&edm=ACWDqb8BAAAA&ccb=7-5&oh=00_AfBoyJKIbZwLux-MdqI-lKT5aZuAuNI_jJGggjG30XPvgA&oe=65A1033F&_nc_sid=ee9879" 
                 alt="Foto perfil de Gabriel Suenaga"
                 width="192"
                 height="192"
