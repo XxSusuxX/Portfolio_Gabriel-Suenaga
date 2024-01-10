@@ -7,6 +7,9 @@ const nextConfig = {
                 hostname: 'instagram.ftow5-1.fna.fbcdn.net'
             }
         ]
+    },
+    experimental: {
+        serverActions: true,
     }
 }
 
