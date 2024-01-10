@@ -1,17 +1,17 @@
 "use client";
 
-import React from 'react'
-import Image from 'next/image'
-import { motion } from "framer-motion"
-import Link from 'next/link';
-import { BsArrowRight, BsLinkedin } from "react-icons/bs"
+import React from "react";
+import Image from "next/image";
+import { motion } from "framer-motion";
+import Link from "next/link";
+import { BsArrowRight, BsLinkedin } from "react-icons/bs";
 import { HiDownload } from "react-icons/hi"
-import { FaGithub } from 'react-icons/fa';
-import { useSectioninView } from '@/lib/hooks';
-import { useActiveSectionContext } from '@/context/active-section-context';
+import { FaGithub } from "react-icons/fa";
+import { useSectioninView } from "@/lib/hooks";
+import { useActiveSectionContext } from "@/context/active-section-context";
 
 export default function Intro() {
-  const { ref } = useSectioninView('Home', 0.5)
+  const { ref } = useSectioninView("Home", 0.5)
   const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext()
   return (
     <section ref={ref} id="home" className="mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]">
