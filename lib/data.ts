@@ -24,8 +24,8 @@ export const links = [
     hash: "#habilidades",
   },
   {
-    name: "Experiências",
-    hash: "#experiencias",
+    name: "Experiência",
+    hash: "#experiencia",
   },
   {
     name: "Contato",
@@ -35,12 +35,12 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Desenvolvedor Front-End",
+    location: "Osasco, SP",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "Iniciei o trabalho voluntário há 3 meses, focando em soluções digitais para o desenvolvimento educacional. Minhas competências inclui Wordpress, PHP, Scrum, Web Design, Desenvolvimento Web.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2023",
   },
   {
     title: "Front-End Developer",
@@ -51,12 +51,12 @@ export const experiencesData = [
     date: "2019 - 2021",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Desenvolvedor Front-End",
+    location: "Osasco, SP",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "Iniciei o trabalho voluntário há 3 meses, focando em soluções digitais para o desenvolvimento educacional. Minhas competências inclui Wordpress, PHP, Scrum, Web Design, Desenvolvimento Web.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "2023 - Até o momento",
   },
 ] as const;
 
