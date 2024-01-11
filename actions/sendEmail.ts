@@ -42,6 +42,8 @@ export const sendEmail = async (formData: FormData) => {
      }
 
   return {
-    data
+    data,
   }
+
 }
+console.log(resend)
