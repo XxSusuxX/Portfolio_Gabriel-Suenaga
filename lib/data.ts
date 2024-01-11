@@ -2,9 +2,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import jornalaborda from "@/public/jornalaborda.png";
+import restauranteluffy from "@/public/restaurante-luffy.png";
+import clonedisney from "@/public/clonedisney.jpg";
 
 export const links = [
   {
@@ -35,52 +35,55 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Desenvolvedor Front-End",
-    location: "Osasco, SP",
+    title: "Atendente Loja TI",
+    location: "Douradina, PR",
     description:
-      "Iniciei o trabalho voluntário há 3 meses, focando em soluções digitais para o desenvolvimento educacional. Minhas competências inclui Wordpress, PHP, Scrum, Web Design, Desenvolvimento Web.",
+      "Atendente em TI com sólida comunicação, resolução de problemas e conhecimento técnico. Transfiro essas habilidades para desenvolvimento front-end, garantindo interfaces eficientes e centradas no usuário.",
     icon: React.createElement(LuGraduationCap),
-    date: "2023",
+    date: "2021",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    date: "2023 - Até o momento",
+    title: "Freelancer Front-End",
+    location: "Home office",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+      "Como freelancer, dedico-me há mais de um ano à criação de projetos fictícios para empresas. Demonstro habilidades sólidas em desenvolvimento front-end, proporcionando soluções inovadoras e personalizadas.",
+    icon: React.createElement(FaReact),
   },
   {
+    date: "2022 - Até o momento",
     title: "Desenvolvedor Front-End",
     location: "Osasco, SP",
     description:
       "Iniciei o trabalho voluntário há 3 meses, focando em soluções digitais para o desenvolvimento educacional. Minhas competências inclui Wordpress, PHP, Scrum, Web Design, Desenvolvimento Web.",
-    icon: React.createElement(FaReact),
-    date: "2023 - Até o momento",
+    icon: React.createElement(CgWorkAlt),
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Jornal Aborda",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+    "Desenvolvedor Front-end voluntário em um jornal local. Otimizo layouts, aprimoro experiência do usuário e colaboro com equipe da ONG.",
+    tags: ["WordPress", "PHP", "HTML", "Web Design"],
+    imageUrl: jornalaborda,
+    Url: "https://jornalaborda.com.br"
   },
   {
-    title: "rmtDev",
+    title: "Restaurande Luffy",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      'Destaco habilidades em design temático, interatividade, e validação de formulários. Experiência imersiva, ênfase em cardápio temáticoe e eventos especiais.',
+    tags: ["HTML", "CSS", "Bootstrap", "JQuery"],
+    imageUrl: restauranteluffy,
+    Url: "https://restaurante-luffy.vercel.app"
   },
   {
-    title: "Word Analytics",
+    title: "Disney",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      'Durante o curso "Profissão: Engenheiro Front-end" pela EBAC, repliquei o site oficial da Disney. com foco em design e estruturação avançada.',
+    tags: ["Html", "Css", "JavaScript", "Scss", "Uglify"],
+    imageUrl: clonedisney,
+    Url: "https://clone-disney-ruddy.vercel.app"
   },
 ] as const;
 
@@ -90,18 +93,22 @@ export const skillsData = [
   "JavaScript",
   "TypeScript",
   "React",
+  "React Hooks",
+  "React Native",
   "Next.js",
-  "Node.js",
-  "Git",
+  "Git/Github",
   "Tailwind",
-  "Prisma",
-  "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
-  "PostgreSQL",
-  "Python",
-  "Django",
+  "Bootstrap",
   "Framer Motion",
+  "WordPress",
+  "PHP",
+  "Vite",
+  "Vue.js",
+  "JQuery",
+  "ESLint",
+  "Ajax",
+  "Sass",
+  "Grunt.js",
+  "Gulp.js"
+  
 ] as const;
