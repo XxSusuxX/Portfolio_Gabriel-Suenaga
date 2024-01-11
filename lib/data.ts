@@ -43,19 +43,19 @@ export const experiencesData = [
     date: "2021",
   },
   {
-    date: "2023 - Até o momento",
-    title: "Freelancer Front-End",
-    location: "Home office",
-    description:
-      "Como freelancer, dedico-me há mais de um ano à criação de projetos fictícios para empresas. Demonstro habilidades sólidas em desenvolvimento front-end, proporcionando soluções inovadoras e personalizadas.",
-    icon: React.createElement(FaReact),
-  },
-  {
     date: "2022 - Até o momento",
     title: "Desenvolvedor Front-End",
     location: "Osasco, SP",
     description:
       "Iniciei o trabalho voluntário há 3 meses, focando em soluções digitais para o desenvolvimento educacional. Minhas competências inclui Wordpress, PHP, Scrum, Web Design, Desenvolvimento Web.",
+    icon: React.createElement(FaReact),
+  },
+  {
+    date: "2023 - Até o momento",
+    title: "Freelancer Front-End",
+    location: "Home office",
+    description:
+      "Como freelancer, dedico-me há mais de um ano à criação de projetos fictícios para empresas. Demonstro habilidades sólidas em desenvolvimento front-end, proporcionando soluções inovadoras e personalizadas.",
     icon: React.createElement(CgWorkAlt),
   },
 ] as const;
