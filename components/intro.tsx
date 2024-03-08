@@ -26,7 +26,7 @@ export default function Intro() {
                 }}
                >
                <Image 
-                src="https://drive.google.com/file/d/1BMoHGKs7KPJR4KmdM0m3LB411PpEu6M1/view" 
+                src="https://lh3.googleusercontent.com/drive-viewer/AKGpihbUy4Nvag7rrDay3wnjIp89w-rCqEDSHHDQ_zdJswRqQmdbLhUjSmWafKWUtKrwHSfDjQllhUJnGE2tVnHkeuONf26cqw=w769-h641" 
                 alt="Foto perfil de Gabriel Suenaga"
                 width="192"
                 height="192"
