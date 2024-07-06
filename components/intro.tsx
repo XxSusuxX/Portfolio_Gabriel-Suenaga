@@ -26,7 +26,7 @@ export default function Intro() {
                 }}
                >
                <Image 
-                src="../images/foto.jpeg" 
+                src="https://lh3.googleusercontent.com/u/0/drive-viewer/AKGpihY9sFHmnf03z8k3m41SAEB7oY630C3FTw8JNAQFmTV5l97R_4-U0K0vIz_6jpAvkePjJb3NrY3Xd6cXdv9emnqRmNV67bz4J_Q=w1325-h627-rw-v1" 
                 alt="Foto perfil de Gabriel Suenaga"
                 quality="95"
                 priority={true}
