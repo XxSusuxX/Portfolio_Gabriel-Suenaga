@@ -26,7 +26,7 @@ export default function Intro() {
                 }}
                >
                <Image 
-                src="../images/Foto-perfil.jpeg" 
+                src="../images/foto.jpeg" 
                 alt="Foto perfil de Gabriel Suenaga"
                 quality="95"
                 priority={true}
