@@ -26,12 +26,12 @@ export default function Intro() {
                 }}
                >
                <Image 
-                src="https://lh3.googleusercontent.com/drive-viewer/AKGpihbUy4Nvag7rrDay3wnjIp89w-rCqEDSHHDQ_zdJswRqQmdbLhUjSmWafKWUtKrwHSfDjQllhUJnGE2tVnHkeuONf26cqw=w769-h641" 
+                src="../images/Foto-perfil.jpeg" 
                 alt="Foto perfil de Gabriel Suenaga"
-                width="192"
-                height="192"
                 quality="95"
                 priority={true}
+                width="192"
+                height="192"
                 className="h-24 w-24 rounded-full object-cover border-[0.35rem] border-white shadow-xl"
                 />
               <motion.span className="absolute bottom-0 right-0 text-4x1"
