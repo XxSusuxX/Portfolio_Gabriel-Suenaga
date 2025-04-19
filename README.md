@@ -1,34 +1,115 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Gabriel Suenaga | Portfólio
 
-## Getting Started
+Este é o portfólio pessoal de **Gabriel Suenaga**, desenvolvido para apresentar suas habilidades, projetos e experiências como desenvolvedor Front-End. O projeto foi construído utilizando **Next.js** e outras tecnologias modernas.
 
-First, run the development server:
+## 🛠 Tecnologias Utilizadas
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+- **Next.js**: Framework React para renderização do lado do servidor e geração de sites estáticos.
+- **TailwindCSS**: Framework CSS para estilização rápida e responsiva.
+- **TypeScript**: Superset do JavaScript para tipagem estática.
+- **Resend**: Serviço para envio de e-mails.
+- **Google Fonts (Inter)**: Fonte personalizada otimizada.
+
+## 🚀 Funcionalidades
+
+- Apresentação de projetos e habilidades.
+- Seção de contato com envio de e-mails.
+- Design responsivo e tema escuro/claro.
+- Animações suaves e transições.
+
+## 📂 Estrutura do Projeto
+
+```plaintext
+Portfolio_Gabriel-Suenaga/
+├── app/                # Diretório principal do Next.js
+│   ├── page.tsx        # Página inicial do portfólio
+│   ├── layout.tsx      # Layout principal
+│   ├── globals.css     # Estilos globais
+├── components/         # Componentes reutilizáveis
+├── actions/            # Funções do lado do servidor (ex.: envio de e-mails)
+├── public/             # Arquivos estáticos (imagens, ícones, etc.)
+├── [README.md](http://_vscodecontentref_/1)           # Documentação do projeto
+├── LICENSE             # Licença do projeto
+
+Aqui está uma versão completa e aprimorada do seu README.md:
+
+```markdown
+# Gabriel Suenaga | Portfólio
+
+Este é o portfólio pessoal de **Gabriel Suenaga**, desenvolvido para apresentar suas habilidades, projetos e experiências como desenvolvedor Front-End. O projeto foi construído utilizando **Next.js** e outras tecnologias modernas.
+
+## 🛠 Tecnologias Utilizadas
+
+- **Next.js**: Framework React para renderização do lado do servidor e geração de sites estáticos.
+- **TailwindCSS**: Framework CSS para estilização rápida e responsiva.
+- **TypeScript**: Superset do JavaScript para tipagem estática.
+- **Resend**: Serviço para envio de e-mails.
+- **Google Fonts (Inter)**: Fonte personalizada otimizada.
+
+## 🚀 Funcionalidades
+
+- Apresentação de projetos e habilidades.
+- Seção de contato com envio de e-mails.
+- Design responsivo e tema escuro/claro.
+- Animações suaves e transições.
+
+## 📂 Estrutura do Projeto
+
+```plaintext
+Portfolio_Gabriel-Suenaga/
+├── app/                # Diretório principal do Next.js
+│   ├── page.tsx        # Página inicial do portfólio
+│   ├── layout.tsx      # Layout principal
+│   ├── globals.css     # Estilos globais
+├── components/         # Componentes reutilizáveis
+├── actions/            # Funções do lado do servidor (ex.: envio de e-mails)
+├── public/             # Arquivos estáticos (imagens, ícones, etc.)
+├── README.md           # Documentação do projeto
+├── LICENSE             # Licença do projeto
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🖥️ Como Rodar o Projeto
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Siga os passos abaixo para rodar o projeto localmente:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/seu-usuario/Portfolio_Gabriel-Suenaga.git
+   cd Portfolio_Gabriel-Suenaga
+   ```
 
-## Learn More
+2. Instale as dependências:
+   ```bash
+   npm install
+   # ou
+   yarn install
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+3. Inicie o servidor de desenvolvimento:
+   ```bash
+   npm run dev
+   # ou
+   yarn dev
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+4. Abra [http://localhost:3000](http://localhost:3000) no navegador para visualizar o projeto.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## 🌐 Deploy
 
-## Deploy on Vercel
+Este projeto foi implantado utilizando a plataforma [Vercel](https://vercel.com/). Para fazer o deploy, siga os passos:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. Faça login na Vercel.
+2. Conecte o repositório do GitHub.
+3. Configure as variáveis de ambiente (ex.: `RESEND_API_KEY`).
+4. Clique em "Deploy".
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## 📧 Contato
+
+Se você tiver dúvidas ou sugestões, entre em contato:
+
+- **E-mail**: gabriel.hneus@gmail.com
+- **LinkedIn**: [linkedin.com/in/gabriel-suenaga](https://linkedin.com/in/gabriel-suenaga)
+
+## 📜 Licença
+
+Este projeto está licenciado sob os termos da licença MIT. Veja o arquivo [LICENSE](./LICENSE) para mais detalhes.

@@ -7,6 +7,7 @@ import { useSectioninView } from "@/lib/hooks";
 import { sendEmail } from "@/actions/sendEmail";
 import SubmitBtn from "./submit-btn";
 import toast from "react-hot-toast";
+import { BsWhatsapp } from "react-icons/bs";
 
 export default function Contact() {
   const { ref } = useSectioninView("Contato")
@@ -32,6 +33,16 @@ export default function Contact() {
     >
         <SectionHeading>Entre em Contato</SectionHeading>
         <p className="text-gray-700 -mt-6 dark:text-white/80">Por favor contate-me diretamente por email <a className="underline" href="mailto:gabriel.hneus@gmail.com">gabriel.hneus@gmail.com</a> ou pelo formulario a abaixo</p>
+
+        <a 
+          href="https://wa.me/5544997408455?text=Olá%20Gabriel!%20Vi%20seu%20portfólio%20e%20fiquei%20interessado(a).%20Gostaria%20de%20conversar%20melhor.%20Podemos%20trocar%20uma%20ideia?" 
+          target="_blank"
+          rel="noopener noreferrer"
+          className="mt-4 inline-flex items-center px-4 py-2 bg-green-500 text-white rounded-full hover:bg-green-600 transition-colors"
+        >
+          <BsWhatsapp className="mr-2" />
+          Contate-me via WhatsApp
+        </a>
 
         <form className="mt-10 flex flex-col dark:text-black/80" action={async (formData) => {
           const { data, error } = await sendEmail(formData)

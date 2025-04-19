@@ -4,7 +4,7 @@ import React from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import Link from "next/link";
-import { BsArrowRight, BsLinkedin } from "react-icons/bs";
+import { BsArrowRight, BsLinkedin, BsWhatsapp } from "react-icons/bs";
 import { HiDownload } from "react-icons/hi"
 import { FaGithub } from "react-icons/fa";
 import { useSectioninView } from "@/lib/hooks";
@@ -53,8 +53,8 @@ export default function Intro() {
         animate={{ opacity:1, y:0 }}
         >
           <span className="font-bold">Olá, Meu nome é Gabriel Suenaga.</span> Eu sou um{" "}
-            <span className="font-bold">Desenvolvedor Front-end</span> {" "} 
-            <span className="italic">sites & android</span>.
+            <span className="font-bold">Desenvolvedor de Software</span> {" "} 
+            <span className="italic">Automações & Testes</span>.
         </motion.h1>
 
         <motion.div className='flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium'
@@ -75,7 +75,12 @@ export default function Intro() {
           </Link>
 
           <a className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105
-          transition cursor-pointer borderBlack dark:bg-white/10" href="/Curriculo_Gabriel-Suenaga.pdf" download={true}>Instale CV <HiDownload className="opacity-60 group-hover:translate-y-1 transition"/></a>
+          transition cursor-pointer borderBlack dark:bg-white/10" href="/curriculo-dev.pdf" download={true}>Instale CV <HiDownload className="opacity-60 group-hover:translate-y-1 transition"/></a>
+
+          <a className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105
+          transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60" href="https://wa.me/5544997408455?text=Olá%20Gabriel!%20Vi%20seu%20portfólio%20e%20fiquei%20interessado(a).%20Gostaria%20de%20conversar%20melhor.%20Podemos%20trocar%20uma%20ideia?" target="_blank">
+            <BsWhatsapp/>
+          </a>
 
           <a className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950  active:scale-105
           transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60" href="https://www.linkedin.com/in/gabriel-suenaga/" target="_blank">
