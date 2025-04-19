@@ -1,16 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    images: {
-        remotePatterns: [
-            {
-                protocol: 'https',
-                hostname: 'lh3.googleusercontent.com'
-            }
-        ]
-    },
-    experimental: {
-        serverActions: true,
-    }
-}
+    reactStrictMode: true, // Ativa o modo estrito do React
+    swcMinify: true,       // Habilita a minificação com SWC para melhor performance
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;

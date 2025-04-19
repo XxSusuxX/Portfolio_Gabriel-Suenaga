@@ -16,8 +16,8 @@ export default function Recommendations() {
       <div className="space-y-8">
         <blockquote className="recomendacao bg-gray-100 p-6 rounded-lg shadow-md dark:bg-gray-800">
           <p className="text-gray-700 dark:text-white/80">
-            "Gabriel é um aluno determinado, focado e proativo, sempre aberto
-            para aprender e motivado por desafios."
+          &quot;Gabriel é um aluno determinado, focado e proativo, sempre aberto
+            para aprender e motivado por desafios.&quot;
           </p>
           <cite className="block mt-4 text-sm font-medium text-gray-900 dark:text-white">
             Mariles Carvalho, Consultora de Carreira
@@ -26,8 +26,8 @@ export default function Recommendations() {
 
         <blockquote className="recomendacao bg-gray-100 p-6 rounded-lg shadow-md dark:bg-gray-800">
           <p className="text-gray-700 dark:text-white/80">
-            "Gabriel possui excelentes habilidades técnicas e aprende muito
-            rápido. Recomendo-o sem ressalvas."
+          &quot;Gabriel possui excelentes habilidades técnicas e aprende muito
+            rápido. Recomendo-o sem ressalvas.&quot;
           </p>
           <cite className="block mt-4 text-sm font-medium text-gray-900 dark:text-white">
             Sergio Melato, Professor

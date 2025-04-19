@@ -4,6 +4,7 @@ import React from "react";
 import SectionHeading from "./section-heading";
 import { motion } from "framer-motion";
 import { useSectioninView } from "@/lib/hooks";
+import Image from "next/image";
 
 const servicesData = [
   {
@@ -71,10 +72,12 @@ export default function Services() {
             viewport={{ once: true }}
             custom={index}
           >
-            <img
+            <Image
               src={service.icon}
               alt={service.title}
-              className="w-12 h-12 mb-4 mx-auto"
+              width={48} 
+              height={48}
+              className="mb-4 mx-auto"
             />
             <h3 className="text-xl font-semibold mb-2 text-gray-900 dark:text-white">
               {service.title}
