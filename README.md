@@ -30,42 +30,6 @@ Portfolio_Gabriel-Suenaga/
 ├── public/             # Arquivos estáticos (imagens, ícones, etc.)
 ├── [README.md](http://_vscodecontentref_/1)           # Documentação do projeto
 ├── LICENSE             # Licença do projeto
-
-Aqui está uma versão completa e aprimorada do seu README.md:
-
-```markdown
-# Gabriel Suenaga | Portfólio
-
-Este é o portfólio pessoal de **Gabriel Suenaga**, desenvolvido para apresentar suas habilidades, projetos e experiências como desenvolvedor Front-End. O projeto foi construído utilizando **Next.js** e outras tecnologias modernas.
-
-## 🛠 Tecnologias Utilizadas
-
-- **Next.js**: Framework React para renderização do lado do servidor e geração de sites estáticos.
-- **TailwindCSS**: Framework CSS para estilização rápida e responsiva.
-- **TypeScript**: Superset do JavaScript para tipagem estática.
-- **Resend**: Serviço para envio de e-mails.
-- **Google Fonts (Inter)**: Fonte personalizada otimizada.
-
-## 🚀 Funcionalidades
-
-- Apresentação de projetos e habilidades.
-- Seção de contato com envio de e-mails.
-- Design responsivo e tema escuro/claro.
-- Animações suaves e transições.
-
-## 📂 Estrutura do Projeto
-
-```plaintext
-Portfolio_Gabriel-Suenaga/
-├── app/                # Diretório principal do Next.js
-│   ├── page.tsx        # Página inicial do portfólio
-│   ├── layout.tsx      # Layout principal
-│   ├── globals.css     # Estilos globais
-├── components/         # Componentes reutilizáveis
-├── actions/            # Funções do lado do servidor (ex.: envio de e-mails)
-├── public/             # Arquivos estáticos (imagens, ícones, etc.)
-├── README.md           # Documentação do projeto
-├── LICENSE             # Licença do projeto
 ```
 
 ## 🖥️ Como Rodar o Projeto
