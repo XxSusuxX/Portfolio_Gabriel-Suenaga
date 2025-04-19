@@ -3,6 +3,7 @@ import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import { FaTruckLoading } from "react-icons/fa";
+import { FaHandsHelping } from "react-icons/fa";
 import jornalaborda from "@/public/jornalaborda.png";
 import restauranteluffy from "@/public/restaurante-luffy.png";
 import clonedisney from "@/public/clonedisney.jpg";
@@ -23,6 +24,14 @@ export const links = [
   {
     name: "Projetos",
     hash: "#projetos",
+  },
+  {
+    name: "Serviços",
+    hash: "#servicos",
+  },
+  { 
+    name: "Recomendações",
+    hash: "#recomendacoes",
   },
   {
     name: "Habilidades",
@@ -54,6 +63,14 @@ export const experiencesData = [
     description:
       "Particiapei da descarga de caminhões com eletrodomésticos, organização e realocação no depósito. Desenvolvi agilidade, atenção a detalhes e trabalho em equipe para um fluxo logístico eficiente.",
     icon: React.createElement(FaTruckLoading),
+  },
+  {
+    date: "nov de 2023 - abr de 2024",
+    title: "Desenvolvedor Front-end (Voluntário)",
+    location: "Remoto - Projeto Base",
+    description:
+      "Atuei como voluntário no desenvolvimento do site do Projeto Base, focado em direitos civis e ações sociais. Contribuí com a criação e manutenção de interfaces acessíveis, promovendo o acesso à Psicanálise e à educação empreendedora por meio de soluções web intuitivas e responsivas.",
+    icon: React.createElement(FaHandsHelping),
   },
   {
     date: "mai de 2024 - mar de 2025",
@@ -124,32 +141,43 @@ export const projectsData = [
   },
 ] as const;
 
-export const skillsData = [
-  "HTML",
-  "CSS",
-  "JavaScript",
-  "TypeScript",
-  "React",
-  "React Hooks",
-  "React Native",
-  "Next.js",
-  "Git/Github",
-  "Tailwind",
-  "Bootstrap",
-  "Framer Motion",
-  "WordPress",
-  "PHP",
-  "Vite",
-  "Vue.js",
-  "JQuery",
-  "ESLint",
-  "Ajax",
-  "Sass",
-  "Grunt.js",
-  "Gulp.js",
-  "Python",
-  "Scrapy",
-  "Tkinter",
-  "Node.js"
-  
-] as const;
+export const skillsData = {
+    "Front-end": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "TypeScript",
+      "React",
+      "React Hooks",
+      "React Native",
+      "Next.js",
+      "Vue.js",
+      "Bootstrap",
+      "Tailwind",
+      "Framer Motion",
+    ],
+    "Back-end": [
+      "Node.js",
+      "PHP",
+      "Python"
+    ],
+    "Ferramentas e Tecnologias": [
+      "Git/Github",
+      "WordPress",
+      "Vite",
+      "JQuery",
+      "ESLint",
+      "Ajax",
+      "Sass",
+      "Grunt.js",
+      "Gulp.js"
+    ],
+    "Automação e Scripts": [
+      "Python",
+      "Scrapy",
+      "Tkinter",
+      "Selenium",
+      "PyAutoGUI",
+      "VPS"
+    ],  
+} as const;
