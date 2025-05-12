@@ -78,7 +78,7 @@ export default function Intro() {
           transition cursor-pointer borderBlack dark:bg-white/10" href="/curriculo-dev.pdf" download={true}>Instale CV <HiDownload className="opacity-60 group-hover:translate-y-1 transition"/></a>
 
           <a className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105
-          transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60" href="https://wa.me/5544997408455?text=Olá%20Gabriel!%20Vi%20seu%20portfólio%20e%20fiquei%20interessado(a).%20Gostaria%20de%20conversar%20melhor.%20Podemos%20trocar%20uma%20ideia?" target="_blank">
+          transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60" href="https://wa.me/5544998289752?text=Olá%20Gabriel!%20Vi%20seu%20portfólio%20e%20fiquei%20interessado(a).%20Gostaria%20de%20conversar%20melhor.%20Podemos%20trocar%20uma%20ideia?" target="_blank">
             <BsWhatsapp/>
           </a>
 
