@@ -4,7 +4,7 @@ import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import { FaTruckLoading } from "react-icons/fa";
 import { FaHandsHelping } from "react-icons/fa";
-import delivery from "@/public/delivery.png";
+import delivery from "@/public/home-delivery.png";
 import restauranteluffy from "@/public/restaurante-luffy.png";
 import clonedisney from "@/public/clonedisney.jpg";
 import goodreads from "@/public/goodreads.png";
