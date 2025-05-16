@@ -97,7 +97,7 @@ export const projectsData = [
       "Site em WordPress para delivery local, com foco em desempenho, usabilidade e visual moderno. Utilizei plugins MyD Delivery para gerenciamento de pedidos, Elementor para o design e o Astra como tema base. Habilidades práticas em WordPress, personalização de templates, web design e integração de plugins.",
     tags: [ "WORDPRESS", "ELEMENTOR", "ASTRA", "WEB DESIGN"],
     imageUrl: delivery, // Imagem do projeto Site Delivery Local
-    Url: "https://delivery.gabrielsuenaga.com.br"
+    Url: "https://deliverydigital.ct.ws"
   },
   {
     title: "Goodreads Scraper",
