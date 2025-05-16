@@ -4,7 +4,7 @@ import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import { FaTruckLoading } from "react-icons/fa";
 import { FaHandsHelping } from "react-icons/fa";
-import jornalaborda from "@/public/jornalaborda.png";
+import delivery from "@/public/delivery.png";
 import restauranteluffy from "@/public/restaurante-luffy.png";
 import clonedisney from "@/public/clonedisney.jpg";
 import goodreads from "@/public/goodreads.png";
@@ -92,6 +92,14 @@ export const experiencesData = [
 
 export const projectsData = [
   {
+    title: "Site Delivery Douradina",
+    description:
+      "Site em WordPress para delivery local, com foco em desempenho, usabilidade e visual moderno. Utilizei plugins MyD Delivery para gerenciamento de pedidos, Elementor para o design e o Astra como tema base. Habilidades práticas em WordPress, personalização de templates, web design e integração de plugins.",
+    tags: [ "WORDPRESS", "ELEMENTOR", "ASTRA", "WEB DESIGN"],
+    imageUrl: delivery, // Imagem do projeto Site Delivery Local
+    Url: "https://delivery.gabrielsuenaga.com.br"
+  },
+  {
     title: "Goodreads Scraper",
     description:
       "Programa em Python que coleta citações do Goodreads com interface gráfica, exportação em JSON/CSV e validação de entradas. Demonstra habilidades em automação e manipulação de dados, com foco em usabilidade.",
@@ -155,6 +163,8 @@ export const skillsData = {
       "Bootstrap",
       "Tailwind",
       "Framer Motion",
+      "Wordpress",
+      "Web Design"
     ],
     "Back-end": [
       "Node.js",
