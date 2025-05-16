@@ -12,7 +12,6 @@ import { Analytics } from "@vercel/analytics/next"
 export default function Home() {
   return (
     <main className="flex flex-col items-center px-4">
-      <Analytics/>
       <Intro/>
       <SectionDivider/>
       <About/>
@@ -24,6 +23,7 @@ export default function Home() {
       <Skills/>
       <Experience/>
       <Contact/>
+      <Analytics/>
     </main>
   )
 }
