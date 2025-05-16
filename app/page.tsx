@@ -7,11 +7,12 @@ import SectionDivider from "@/components/section-divider";
 import Skills from "@/components/skills";
 import Services from "@/components/services";
 import Recommendations from "@/components/recommendations";
-import { SpeedInsights } from "@vercel/speed-insights/next"
+import { Analytics } from "@vercel/analytics/next"
 
 export default function Home() {
   return (
     <main className="flex flex-col items-center px-4">
+      <Analytics/>
       <Intro/>
       <SectionDivider/>
       <About/>
