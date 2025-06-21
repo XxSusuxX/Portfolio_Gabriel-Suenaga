@@ -8,33 +8,33 @@ import Image from "next/image";
 
 const servicesData = [
   {
-    title: "Automação de Tarefas Web",
+    title: "Bots Inteligentes para WhatsApp",
     description:
-      "Criação de scripts e soluções simples para automatizar tarefas repetitivas em ambientes web, como envio de formulários, integração com APIs e processos que economizam tempo.",
+      "Criação de bots personalizados que automatizam o atendimento ao cliente, envio de mensagens, cobranças, agendamentos e muito mais — direto no WhatsApp da sua empresa, funcionando 24h por dia.",
     icon: "/icons/settings-gears.png",
   },
   {
-    title: "Interfaces Web Sob Medida",
+    title: "Automações de Processos Repetitivos",
     description:
-      "Desenvolvimento de interfaces personalizadas com foco em usabilidade e performance, utilizando React, Tailwind, Bootstrap e outras ferramentas modernas.",
+      "Elimino tarefas manuais com automações feitas em Python ou JavaScript. Disparo de boletos, notificações automáticas, integrações com formulários e sistemas externos.",
     icon: "/icons/monitor.png",
   },
   {
-    title: "Melhorias e Suporte para Sites",
+    title: "Integração com APIs e Sistemas",
     description:
-      "Ajustes, correções e melhorias em sites existentes. Otimização de performance, SEO básico, organização de código e suporte para manter tudo funcionando bem.",
+      "Integro sua automação com APIs de pagamento, CRMs, Google Sheets, e sistemas de envio. Tudo conectado para você não precisar fazer nada manualmente.",
     icon: "/icons/computer.png",
   },
   {
-    title: "Integração com APIs e Dados Externos",
+    title: "Dashboards e Painéis Automatizados",
     description:
-      "Criação de funcionalidades que consomem APIs externas (REST), exibindo informações dinâmicas em páginas web, como catálogos, dashboards ou listas de conteúdo.",
+      "Criação de painéis personalizados para acompanhar interações do bot, pedidos, mensagens e status em tempo real. Visualize tudo em um só lugar, sem complicação.",
     icon: "/icons/server.png",
   },
   {
-    title: "Sites com WordPress e Suporte Técnico",
+    title: "Suporte e Ajustes em Sistemas",
     description:
-      "Desenvolvimento e manutenção de sites com WordPress, com foco em performance, design personalizado e facilidade de gerenciamento para o cliente.",
+      "Manutenção, melhorias e ajustes em automações já existentes. Suporte técnico contínuo para garantir que tudo funcione de forma fluida, segura e sem travar.",
     icon: "/icons/services.png",
   },
 ];

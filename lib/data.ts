@@ -82,10 +82,10 @@ export const experiencesData = [
   },
   {
     date: "mar de 2025 - o momento",
-    title: "Desenvolvedor de Software (Freelancer)",
+    title: "Automatizador de Inteligência Artificial (Freelancer)",
     location: "Remoto",
     description:
-      "Crio soluções digitais personalizadas com Front-end moderno (React, Next.js, Vue.js), automação de testes (Selenium, Pytest) e Python para otimização e qualidade de código.",
+      "Crio automações inteligentes para negócios, com bots no WhatsApp, integrações via APIs e scripts em Python para atendimento automático, cobranças e agendamentos.",
     icon: React.createElement(FaReact),
   },
 ] as const;

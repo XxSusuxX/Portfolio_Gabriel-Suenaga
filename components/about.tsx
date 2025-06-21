@@ -20,16 +20,16 @@ export default function About() {
         <SectionHeading>Sobre mim</SectionHeading>
 
 <p className="mb-3">
-    Apaixonado por tecnologia desde cedo, iniciei minha jornada focando em <span className="font-medium">Front-End</span> e evoluí como Desenvolvedor de Software, com interesse em <span className="font-medium">Testes e Automações</span>. A lógica e a busca por soluções inteligentes me motivam.
+    Sou fundador da <span className="font-medium">Suenaga Automações</span>, um projeto focado em criar <span className="font-medium">bots inteligentes, automações com IA</span> e soluções digitais que ajudam empresas a vender mais com menos esforço.
 </p>
 <p className="mb-3">
-    Minha formação como melhor aluno em <span className="font-medium">Desenvolvimento de Sistemas</span> me deu uma base sólida em diversas tecnologias. Atualmente, aprofundo minhas habilidades em <span className="font-medium">React, TypeScript, JavaScript</span> e <span className="font-medium">Testes Automatizados</span>, buscando sempre entregas de alta qualidade e performance.
+    Minha formação como melhor aluno em <span className="font-medium">Desenvolvimento de Sistemas</span> me deu uma base sólida em programação e tecnologia. Desde então, venho aprimorando minhas habilidades em <span className="font-medium">Python, APIs, Web Scraping</span> e <span className="font-medium">automação de processos com WhatsApp</span>.
 </p>
 <p className="mb-3">
-    Além do desenvolvimento <span className="font-medium">Front-End</span>, crio <span className="font-medium">automações com Python</span> e <span className="font-medium">Node.js</span> para otimizar processos. Busco desafios que impulsionem meu crescimento e me permitam contribuir em equipes de tecnologia.
+    Também desenvolvo <span className="font-medium">interfaces personalizadas com React e WordPress</span>, integradas a sistemas automatizados de atendimento, disparo de mensagens, envio de boletos e muito mais.
 </p>
 <p>
-    Se você tem um projeto web, precisa de testes eficientes ou soluções de automação, entre em contato! Veja meus projetos abaixo.
+    Se você quer automatizar processos no seu negócio ou colocar um robô pra trabalhar por você, entre em contato. Veja meus projetos abaixo.
 </p>
 
     </motion.section>
